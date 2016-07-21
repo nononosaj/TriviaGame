@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Kanye Trivia </title>
+    
+    <!-- Jquery  -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+
+    <!-- Javascript -->
+    <script src="assets/javascript/app.js"></script>
+    
+    <!--  Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">    
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Sirin+Stencil' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Righteous' rel='stylesheet' type='text/css'>
+    
+
+</head>
+<body>
+
+
+<div class="centerSec">
+    <h1> Kanye West  </h1>
+    <h3> Trivia </h3> 
+
+    <center><img src="assets/images/kwestion.jpg" alt="Kanye's Got The Answers"  height="250" width="400" /> </center>
+
+    <br>
+
+   
+
+    <p> Seconds remaining: <div id="timeLeft"></div> </p>
+
+    <br>
+        <!--
+    <h4 id="album"> What was the title of Kanye's first album? </h4>
+        <form>
+            <input type="radio" name="gender" value="graduation" checked> Graduation &nbsp;
+            <input type="radio" name="gender" value="dropout"> The College Dropout &nbsp;
+            <input type="radio" name="gender" value="preschool"> Too Cool 4 Preschool &nbsp;
+            <input type="radio" name="gender" value="late"> Late Registration
+        </form>
+                <br>
+        <hr>
+                <br>
+    <h4 id="home"> What city does Kanye consider his hometown? </h4>
+        <form>
+            <input type="radio" name="gender" value="chicago" checked> Chicago &nbsp;
+            <input type="radio" name="gender" value="la"> Los Angeles &nbsp;
+            <input type="radio" name="gender" value="atlanta"> Atlanta &nbsp;
+            <input type="radio" name="gender" value="pgang"> Pyongyang
+        </form>
+                <br>
+        <hr>
+                <br>
+    <h4 id="sibling"> How many siblings does Kanye have? </h4>
+        <form>
+            <input type="radio" name="gender" value="one" checked> One &nbsp;
+            <input type="radio" name="gender" value="three"> Three &nbsp;
+            <input type="radio" name="gender" value="seven"> Seven &nbsp;
+            <input type="radio" name="gender" value="none"> None
+        </form>
+                <br>
+        <hr>
+                <br>
+    <h4 id="daughter"> What is the name of Kanye's daughter? </h4>
+        <form>
+            <input type="radio" name="gender" value="kanye" checked> Kanye Jr. &nbsp;
+            <input type="radio" name="gender" value="blue"> Blue Ivy &nbsp;
+            <input type="radio" name="gender" value="south"> South &nbsp;
+            <input type="radio" name="gender" value="north"> North
+        </form>
+
+                <br>
+        <hr>
+                <br>
+    <h4 id="boost"> Which company did Kanye release the Yeezy Boost shoe line with? </h4>
+        <form>
+            <input type="radio" name="gender" value="keds" checked> Keds &nbsp;
+            <input type="radio" name="gender" value="crocs"> Crocs &nbsp;
+            <input type="radio" name="gender" value="nike"> Nike &nbsp;
+            <input type="radio" name="gender" value="adidas"> Adidas
+        </form>
+
+                <br>
+        <hr>
+                <br>
+    <h4 id="tour"> What is the name of Kanye's 2016 tour? </h4>
+        <form>
+            <input type="radio" name="gender" value="quest" checked> Kanye Quest with Kanye West &nbsp;
+            <input type="radio" name="gender" value="glow"> Glow in the Dark Tour &nbsp;
+            <input type="radio" name="gender" value="saint"> Saint Pablo Tour &nbsp;
+            <input type="radio" name="gender" value="taytay"> Tater Tots with Taylor Swift Tour
+        </form>
+
+                <br>
+        <hr>
+                <br>
+
+    <h4 id="beatles"> Which member of The Beatles is featured on the song "FourFiveSeconds"?  </h4>
+        <form>
+            <input type="radio" name="gender" value="paul" checked> Paul McCartney &nbsp;
+            <input type="radio" name="gender" value="george"> George Harrison &nbsp;
+            <input type="radio" name="gender" value="ringo"> Ringo Starr &nbsp;
+            <input type="radio" name="gender" value="hanson"> Taylor Hanson
+        </form>
+                 <br>
+        <hr>
+                <br>
+    <h4 id="fame"> What pop star was Kanye supposed to go on the "Fame Kills" tour with, before it got canceled? </h4>
+        <form>
+            <input type="radio" name="gender" value="madonna" checked> Madonna &nbsp;
+            <input type="radio" name="gender" value="rihanna"> Rihanna &nbsp;
+            <input type="radio" name="gender" value="bey"> Beyoncé &nbsp;
+            <input type="radio" name="gender" value="gaga"> Lady GaGa
+        </form>
+
+                <br>
+        <hr>
+                <br>
+
+
+    <h4 id="parties"> Which rapper is featured on the song "No More Parties In LA"?</h4>
+        <form>
+            <input type="radio" name="gender" value="cole" checked> J. Cole &nbsp;
+            <input type="radio" name="gender" value="kendrick"> Kendrick Lamar &nbsp;
+            <input type="radio" name="gender" value="jayz"> Jay-Z &nbsp;
+            <input type="radio" name="gender" value="sisqo"> Sisqo
+        </form>
+
+                <br>
+        <hr>
+                <br>
+    <h4 id="birthday"> Who out of the following does Kanye share a birthday with? </h4>
+        <form>
+            <input type="radio" name="gender" value="tebow" checked> Tim Tebow &nbsp;
+            <input type="radio" name="gender" value="duncan"> Tim Duncan &nbsp;
+            <input type="radio" name="gender" value="berners"> Tim Berners-Lee &nbsp;
+            <input type="radio" name="gender" value="mcgraw"> Tim McGraw
+        </form>
+
+                <br>
+        <hr>
+                <br>
+
+                <div class="centered">
+                <a href="results.html" class="btn btn-danger submit">Submit</a></div>
+                <br>
+                 <center><img src="assets/images/shrug.jpg" alt="What took you so long?!"  height="250" width="400" /> </center>
+
+                 <br>       -->
+</div> 
+
+
+
+</body>
+</html>

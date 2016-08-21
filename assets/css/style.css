@@ -4,7 +4,7 @@ body {
     background-image: url("../../assets/images/back.jpg");
 }
 
-.centerSec { 
+#centerSec { 
 	width: 75%; 
 	height: 90%; 
 	margin: 50px auto; 
